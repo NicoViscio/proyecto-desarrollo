@@ -4,7 +4,6 @@ from model.user_model import UserModel
 from view.login_view import LoginView
 from controller.controller import Controller
 
-# Punto de entrada principal de la aplicación. Se inicializa la aplicación Qt,
 # se crean las instancias del modelo, la vista y el controlador, y se lanza la interfaz gráfica.
 if __name__ == "__main__":
     app = QApplication(sys.argv)
